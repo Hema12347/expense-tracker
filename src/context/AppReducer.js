@@ -1,3 +1,8 @@
+import {
+  DELETE_TRANSACTION,
+  ADD_TRANSACTION,
+} from './GlobalState'
+
 export default (state, action) => {
   switch(action.type) {
     case 'DELETE_TRANSACTION':
