@@ -1,9 +1,4 @@
-import {
-  DELETE_TRANSACTION,
-  ADD_TRANSACTION,
-} from './GlobalState'
-
-export default (state, action) => {
+ const AppReducer = (state, action) => {
   switch(action.type) {
     case 'DELETE_TRANSACTION':
       return {
@@ -19,3 +14,4 @@ export default (state, action) => {
       return state;
   }
 }
+export default AppReducer
